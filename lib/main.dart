@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_api/home_screen.dart';
+import 'package:weather_api/view/splash_screen.dart';
 
 void main(){
   runApp(const WeatherAPI());
@@ -12,7 +12,7 @@ class WeatherAPI extends StatelessWidget {
     return const MaterialApp(
       title: 'Weathe API',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
